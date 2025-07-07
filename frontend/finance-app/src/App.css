@@ -1,0 +1,94 @@
+
+.card-body {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+input, select {
+  border-radius: 6px;
+}
+
+input::placeholder {
+  color: #086bed;
+}
+.expense-card {
+  width: 550px;
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+}
+
+.expense-card:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.01);
+}
+
+.expense-details h5 {
+  font-weight: 800;
+  color: #333;
+}
+
+.expense-details p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.expense-actions {
+  opacity: 0;
+  align-items: center;
+}
+.expense-actions:hover {
+  opacity: 1;
+}
+.category-icon-circle {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  background-color: #9d6fe7; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* icon color */
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+.expense-card .fw-semibold {
+  margin-bottom: 8px; /* push name a bit down */
+}
+.expense-date {
+  font-size: 0.95rem;
+  color: #0d87f1; /* Bootstrap's muted grey */
+  font-style: italic;
+  margin-top: 2px;
+}
+body {
+  background: linear-gradient(to bottom right, #f3e8ff, #dbeafe);
+  min-height: 100vh;
+}
+.trend-box-purple {
+  background-color: #f3e8ff;
+  color: #0d6cf1;
+}
+
+.trend-box-yellow {
+  background-color: #fef9c3;
+  color: #ecf012;
+}
+
+.trend-box-blue {
+  background-color: #e0f2fe;
+  color: #1e40af;
+}
+
+.periodic-box {
+  background: linear-gradient(to top right, #ede9fe, #dbeafe);
+  color: #eef610;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.transaction{
+  background-color: rgb(1, 164, 1);
+}
